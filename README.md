@@ -1,36 +1,43 @@
-# Python Mini Projects
+# Python Beginner Projects
 
-A collection of Python practice projects. Each project is in its own folder.
+5 terminal-based Python projects made while learning Python basics.
 
-## Projects
+## 1. Password Manager
+**What it does:** Save, view and generate passwords.  
+**Files:** `Password manager/main.py`, `passwords.txt`  
+**Run:** `cd "Password manager" && python main.py`  
+**Features:** Save website+password, view all, generate 8-char random password, auto-loads saved data
 
-### 1. Password Manager 🔐
-A simple password manager that securely saves and retrieves passwords.
-- File: `Password manager/main.py`
-- Run: `python "Password manager/main.py"`
+## 2. Student Result Manager  
+**What it does:** Add students, save marks, check pass/fail.  
+**Files:** `Student result manager/main.py`, `students.json`  
+**Run:** `cd "Student result manager" && python main.py`  
+**Features:** Add/update/delete students, view all, 40+ marks = PASS, data saved in JSON
 
-### 2. Student Result Manager 📊
-Manage student marks, calculate grades, and view results.
-- File: `Student result manager/main.py`
-- Run: `python "Student result manager/main.py"`
+## 3. Blackjack Game
+**What it does:** Play 21 against computer in terminal.  
+**Files:** `Black-jack/main.py`  
+**Run:** `cd "Black-jack" && python main.py`  
+**Features:** Hit/stand, Ace=11/1, dealer hits till 17, win/lose/draw logic
 
-### 3. Blackjack Game 🃏
-Terminal-based Blackjack card game with basic game logic.
-- File: `Black-jack/main.py`
-- Run: `python Black-jack/main.py`
+## 4. Coffee Machine
+**What it does:** Virtual coffee vending machine with payment.  
+**Files:** `Coffee-machine/main.py`  
+**Run:** `cd "Coffee-machine" && python main.py`  
+**Features:** Espresso ₹125, Latte ₹200, Cappuccino ₹250. Tracks water/milk/coffee, gives change, `report` command
 
-### 4. Coffee Machine ☕
-Coffee vending machine simulation with resources and payment handling.
-- File: `Coffee-machine/main.py`
-- Run: `python Coffee-machine/main.py`
-
-### 5. Higher Lower Game 📈
-Guess whether the next number is higher or lower than the current one.
-- File: `Higher-lower/main.py`
-- Run: `python Higher-lower/main.py`
+## 5. Higher Lower Game
+**What it does:** Guess who has more Instagram followers.  
+**Files:** `Higher-lower/main.py`  
+**Run:** `cd "Higher-lower" && python main.py`  
+**Features:** 25+ celebrities/brands, score tracking, infinite rounds till wrong guess
 
 ## How to Run
+1. `git clone <your-repo-link>`
+2. `cd python-beginner-projects` 
+3. `cd "Project-Name" && python main.py`
 
-1. Clone the repo:
-```bash
-git clone https://github.com/bbhatt26/Python-mini-projects.git
+## Tech Used
+Python 3.8+, random, string, json. No external libraries.
+
+Built while learning Python basics.
