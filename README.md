@@ -1,6 +1,6 @@
 # Python Beginner Projects
 
-5 terminal-based Python projects made while learning Python basics.
+6 terminal-based Python projects made while learning Python basics.
 
 ## 1. Password Manager
 **What it does:** Save, view and generate passwords.  
@@ -32,12 +32,19 @@
 **Run:** `cd "Higher-lower" && python main.py`  
 **Features:** 25+ celebrities/brands, score tracking, infinite rounds till wrong guess
 
+## 6. True/False Quiz Game
+**What it does:** Terminal quiz with True/False questions and scoring.  
+**Files:** `quiz.py`  
+**Run:** `python quiz.py`  
+**Features:** 12 questions, True/False input, score after each question, final score at end
+
 ## How to Run
 1. `git clone <your-repo-link>`
 2. `cd python-beginner-projects` 
 3. `cd "Project-Name" && python main.py`
+4. For Quiz: `python quiz.py` directly
 
 ## Tech Used
-Python 3.8+, random, string, json. No external libraries.
+Python 3.8+, random, string, json.
 
 Built while learning Python basics.
