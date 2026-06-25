@@ -5,9 +5,9 @@ num = random.randint(1,10)
 
 def level_of_game(ask):
     if ask == 'easy':
-        return 10
+        return 8
     elif ask == 'hard':
-        return 5
+        return 4
     else:
         return "Invalid input! Type 'easy' or 'hard': "
 
