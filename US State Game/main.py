@@ -25,6 +25,7 @@ while len(guessed_states)<50:
         new_data=pd.DataFrame(missing_states)
         new_data.to_csv(r"C:\Users\bhatt\Desktop\US State Game\missed_states.csv")
 
+        
         break
     if answer_state in all_states:
         guessed_states.append(answer_state)
